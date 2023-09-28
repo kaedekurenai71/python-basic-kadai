@@ -1,0 +1,6 @@
+def goods_price(price: int, tax_percentage: float) -> float:
+    tax = tax_percentage / 100 
+    total = price * (1 + tax)
+    print(f"{total}円")
+
+goods_price(100, 10) 
