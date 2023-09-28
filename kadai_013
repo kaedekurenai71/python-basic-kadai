@@ -1,0 +1,5 @@
+def goods_price(price:int, tax:int) -> int:
+  total = price * (1 + tax)
+  print(f"{total}円")
+
+goods_price(100, 0.1)
