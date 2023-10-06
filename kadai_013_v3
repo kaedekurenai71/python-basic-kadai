@@ -1,0 +1,7 @@
+def add_two_arguments(price, tax_percentage):
+    tax = tax_percentage / 100
+    total = price * (1 + tax)
+    return total
+
+result = add_two_arguments(1000, 10) 
+print(f"{result}円")
